@@ -1,5 +1,7 @@
 # Catastrophic-risk-aware reinforcement learning with extreme-value-theory-based policy gradients
+
 Abstract
+
 This paper tackles the problem of mitigating catastrophic risk (which is risk with very
 low frequency but very high severity) in the context of a sequential decision making process.
 This problem is particularly challenging due to the scarcity of observations in the far tail
