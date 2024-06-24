@@ -13,4 +13,4 @@ risk management, more precisely to the dynamic hedging of a financial option, is
 
 The 'GPD_convergence' generate the simulation experiments conducted in a controlled environment, and the 'NIG_Gammahedging' provide the application of our method in financial hedging.
 
-'cvar_plot' will plot our objective function (CVaR$_{0.999}$ of the hedging shortfall) versus the hedge ratio $\theta$, representing the percentage of the target option Gamma being neutralized. Estimates are obtained with brute force calculations, i.e.~through sample averaing over $1,\!000,\!000$ simulated paths.
+'cvar_plot' will plot our objective function (CVaR_{0.999} of the hedging shortfall) versus the hedge ratio $\theta$, representing the percentage of the target option Gamma being neutralized. Estimates are obtained with brute force calculations, i.e.~through sample averaing over $1,000,000$ simulated paths.
