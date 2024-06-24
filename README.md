@@ -11,4 +11,6 @@ extreme value theory. Numerical experiments highlight the out-performance of our
 over common benchmarks, relying on the empirical distribution. An application to financial
 risk management, more precisely to the dynamic hedging of a financial option, is presented
 
-The GPD_convergence file contains the simulation experiments conducted in a controlled environment, while the NIG_Gammahedging file illustrates the application of our method in financial hedging.
+The 'GPD_convergence' generate the simulation experiments conducted in a controlled environment, and the 'NIG_Gammahedging' provide the application of our method in financial hedging.
+
+'cvar_plot' will plot our objective function (CVaR$_{0.999}$ of the hedging shortfall) versus the hedge ratio $\theta$, representing the percentage of the target option Gamma being neutralized. Estimates are obtained with brute force calculations, i.e.~through sample averaing over $1,\!000,\!000$ simulated paths.
